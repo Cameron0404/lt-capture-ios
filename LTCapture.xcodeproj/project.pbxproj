@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5443000000000000000A32 /* LTCaptureCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5443000000000000000A31 /* LTCaptureCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5443000000000000000A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5443000000000000000A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5443000000000000000A10;
+			remoteInfo = LTCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5443000000000000000A05 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		4C5443000000000000000A06 /* LTCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5443000000000000000A07 /* LTCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C5443000000000000000A0A /* Exceptions for "LTCapture" folder in "LTCapture" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4C5443000000000000000A10 /* LTCapture */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C5443000000000000000A08 /* LTCapture */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C5443000000000000000A0A /* Exceptions for "LTCapture" folder in "LTCapture" target */,
+			);
+			path = LTCapture;
+			sourceTree = "<group>";
+		};
+		4C5443000000000000000A09 /* LTCaptureTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LTCaptureTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5443000000000000000A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5443000000000000000A32 /* LTCaptureCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5443000000000000000A22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5443000000000000000A02 = {
+			isa = PBXGroup;
+			children = (
+				4C5443000000000000000A04 /* Config */,
+				4C5443000000000000000A08 /* LTCapture */,
+				4C5443000000000000000A09 /* LTCaptureTests */,
+				4C5443000000000000000A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5443000000000000000A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5443000000000000000A06 /* LTCapture.app */,
+				4C5443000000000000000A07 /* LTCaptureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5443000000000000000A04 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4C5443000000000000000A05 /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5443000000000000000A10 /* LTCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5443000000000000000A43 /* Build configuration list for PBXNativeTarget "LTCapture" */;
+			buildPhases = (
+				4C5443000000000000000A11 /* Sources */,
+				4C5443000000000000000A12 /* Frameworks */,
+				4C5443000000000000000A13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4C5443000000000000000A08 /* LTCapture */,
+			);
+			name = LTCapture;
+			packageProductDependencies = (
+				4C5443000000000000000A31 /* LTCaptureCore */,
+			);
+			productName = LTCapture;
+			productReference = 4C5443000000000000000A06 /* LTCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5443000000000000000A20 /* LTCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5443000000000000000A46 /* Build configuration list for PBXNativeTarget "LTCaptureTests" */;
+			buildPhases = (
+				4C5443000000000000000A21 /* Sources */,
+				4C5443000000000000000A22 /* Frameworks */,
+				4C5443000000000000000A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5443000000000000000A24 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C5443000000000000000A09 /* LTCaptureTests */,
+			);
+			name = LTCaptureTests;
+			packageProductDependencies = (
+			);
+			productName = LTCaptureTests;
+			productReference = 4C5443000000000000000A07 /* LTCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5443000000000000000A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					4C5443000000000000000A10 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					4C5443000000000000000A20 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 4C5443000000000000000A10;
+					};
+				};
+			};
+			buildConfigurationList = 4C5443000000000000000A40 /* Build configuration list for PBXProject "LTCapture" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5443000000000000000A02;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4C5443000000000000000A30 /* XCLocalSwiftPackageReference "LTCaptureCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4C5443000000000000000A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5443000000000000000A10 /* LTCapture */,
+				4C5443000000000000000A20 /* LTCaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5443000000000000000A13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5443000000000000000A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5443000000000000000A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5443000000000000000A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5443000000000000000A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5443000000000000000A10 /* LTCapture */;
+			targetProxy = 4C5443000000000000000A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C5443000000000000000A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C5443000000000000000A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5443000000000000000A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5443000000000000000A05 /* Signing.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LTCapture/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LT Capture";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C5443000000000000000A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5443000000000000000A05 /* Signing.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LTCapture/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LT Capture";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C5443000000000000000A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5443000000000000000A05 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).ltcapture.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LTCapture";
+			};
+			name = Debug;
+		};
+		4C5443000000000000000A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5443000000000000000A05 /* Signing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).ltcapture.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LTCapture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5443000000000000000A40 /* Build configuration list for PBXProject "LTCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5443000000000000000A41 /* Debug */,
+				4C5443000000000000000A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5443000000000000000A43 /* Build configuration list for PBXNativeTarget "LTCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5443000000000000000A44 /* Debug */,
+				4C5443000000000000000A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5443000000000000000A46 /* Build configuration list for PBXNativeTarget "LTCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5443000000000000000A47 /* Debug */,
+				4C5443000000000000000A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4C5443000000000000000A30 /* XCLocalSwiftPackageReference "LTCaptureCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = LTCaptureCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C5443000000000000000A31 /* LTCaptureCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C5443000000000000000A30 /* XCLocalSwiftPackageReference "LTCaptureCore" */;
+			productName = LTCaptureCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C5443000000000000000A01 /* Project object */;
+}

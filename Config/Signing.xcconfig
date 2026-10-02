@@ -1,0 +1,11 @@
+// Signing for LT Capture. Before installing on your iPhone, edit the two lines
+// below: DEVELOPMENT_TEAM (the team ID Xcode shows for your Apple ID) and
+// BUNDLE_ID_PREFIX (any reverse-domain name that is yours). Nothing else here
+// needs to change. The guard refuses a committed team ID, so keep your edit local.
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = uk.co.example.change-me
+
+PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_ID_PREFIX).ltcapture
+CODE_SIGN_STYLE = Automatic
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
